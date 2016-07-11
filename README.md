@@ -20,19 +20,19 @@ Add `XCUIElement+Visible.swift` file from `Sources` directory into your project.
 
 ## Usage
 
-1. Add `import` statement in your class which inherits from `XCTestCase`:
-``` Swift
-import "XCUIElement-Visible"
-```
+  1. Add `import` statement in your class which inherits from `XCTestCase`:
+  ``` Swift
+  import "XCUIElement-Visible"
+  ```
 
-2. Receive desired `XCUIElement` in your test method and use its `visible` property:
-``` Swift
-func testExample() {
-    let element = // (...)
+  2. Receive desired `XCUIElement` in your test method and use its `visible` property:
+  ``` Swift
+  func testExample() {
+      let element = // (...)
 
-    XCTAssertTrue(element.visible)
-}
-```
+      XCTAssertTrue(element.visible)
+  }
+  ```
 
 
 ## Minimum requirements
