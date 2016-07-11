@@ -1,6 +1,8 @@
 import XCTest
 
 
+@available(iOS 9.0, OSX 10.11, *)
+
 extension XCUIElement {
 
     var visible: Bool {

@@ -5,7 +5,6 @@ This extension adds computed property `visible` to `XCUIElement`. It is useful i
 
 ## Installation
 
-
 ### Swift Package Manager
 
 Add the following line to your `Package.swift` file:
