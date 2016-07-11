@@ -1,6 +1,6 @@
 # XCUIElement+Visible
 
-This extension adds computed property `visible` to `XCUIElement`. It is useful in `UI Testing` for checking if an element is visible on the testing device right now.
+This extension adds computed property `visible` to `XCUIElement`. It is useful in `UI Testing` for checking if an element is visible on the screen.
 
 
 ## Installation
@@ -27,16 +27,12 @@ Add `import` statement in your class which inherits from `XCTestCase`:
 import "XCUIElement-Visible"
 ```
 
-Receive desired `XCUIElement` in your test method and get its `visible` property:
+Receive desired `XCUIElement` in your test method and use its `visible` property:
 
 ``` Swift
-(...)
-
-func textExample() {
-  let element = (...)
+func testExample() {
+  let element = // (...)
 
   XCTAssertTrue(element.visible)
 }
-
-(...)
 ```
