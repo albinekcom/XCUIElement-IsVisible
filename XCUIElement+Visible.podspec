@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/albinekcom/XCUIElement-Visible'
   s.license      = 'MIT'
   s.author             = { "Albin 'albinek' Sadowski": "albinek@albinek.com" }
-  s.social_media_url   = 'http://twitter.com/albinekcom'
+  s.social_media_url   = 'https://twitter.com/albinekcom'
 
   s.ios.deployment_target = '9.0'
   s.osx.deployment_target = '10.11'

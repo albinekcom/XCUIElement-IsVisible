@@ -8,7 +8,7 @@ This extension adds computed property `visible` to `XCUIElement`. It is useful i
 
 ### CocoaPods
 
-Add the following line to the `target` in your `Podfile`:
+Add the following line to the target `UITests` in your `Podfile`:
 
 ``` Ruby
 pod 'XCUIElement+Visible'
