@@ -31,7 +31,7 @@ Add `XCUIElement+Visible.swift` file from `Sources` directory into your project.
 
   1. Add `import` statement in your class which inherits from `XCTestCase`:
   ``` Swift
-  import "XCUIElement-Visible"
+  import XCUIElement_Visible
   ```
 
   2. Receive desired `XCUIElement` in your test method and use its `visible` property:
