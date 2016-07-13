@@ -2,15 +2,12 @@ Pod::Spec.new do |s|
   s.name         = 'XCUIElement+Visible'
   s.version      = '0.0.1'
   s.summary      = 'It adds visible property to XCUIElement'
-
   s.description  = <<-DESC
   This extension adds computed property visible to XCUIElement. It is useful in UI Testing for checking if an element is visible on the screen.
                    DESC
 
   s.homepage     = 'https://github.com/albinekcom/XCUIElement-Visible'
-
   s.license      = 'MIT'
-
   s.author             = { "Albin 'albinek' Sadowski": "albinek@albinek.com" }
   s.social_media_url   = 'http://twitter.com/albinekcom'
 
@@ -19,4 +16,6 @@ Pod::Spec.new do |s|
 
   s.source       = { git: 'https://github.com/albinekcom/XCUIElement-Visible.git', tag: '0.0.1' }
   s.source_files  = 'Sources'
+
+  s.frameworks = 'XCTest'
 end
