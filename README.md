@@ -5,6 +5,15 @@ This extension adds computed property `visible` to `XCUIElement`. It is useful i
 
 ## Installation
 
+
+### CocoaPods
+
+Add the following line to the `target` in your `Podfile` file:
+
+``` Ruby
+pod 'XCUIElement+Visible'
+```
+
 ### Swift Package Manager
 
 Add the following line to `dependencies` in your `Package.swift` file:
