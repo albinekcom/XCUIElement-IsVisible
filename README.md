@@ -44,13 +44,6 @@ Add `XCUIElement+Visible.swift` file from `Sources` directory into your project.
   ```
 
 
-    let element = // (...)
-
-    XCTAssertTrue(element.visible)
-}
-```
-
-
 ## Minimum requirements
 
 - Swift 3
