@@ -29,7 +29,7 @@ Add `XCUIElement+Visible.swift` file from `Sources` directory into your project.
 
 ## Usage
 
-  1. Add `import` statement in your class which inherits from `XCTestCase`:
+  1. Add `import` statement in your class which inherits from `XCTestCase` (not needed if you install it [manually](#manually)):
   ``` Swift
   import XCUIElement_Visible
   ```
