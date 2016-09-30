@@ -46,5 +46,5 @@ Add `XCUIElement+Visible.swift` file from `Sources` directory into your project.
 
 ## Minimum requirements
 
-- Swift 2
+- Swift 3
 - iOS 9.0 / OS X 10.11 (where `UI Testing` is available)
