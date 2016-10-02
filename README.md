@@ -1,6 +1,8 @@
-# XCUIElement+Visible
+# XCUIElement+IsVisible
 
-This extension adds computed property `visible` to `XCUIElement`. It is useful in `UI Testing` for checking if an element is visible on the screen.
+[![Language Swift 3](https://img.shields.io/badge/Language-Swift%203-orange.svg)](https://swift.org)
+
+This extension adds computed property `isVisible` to `XCUIElement`. It is useful in `UI Testing` for checking if an element is visible on the screen.
 
 
 ## Installation
@@ -11,7 +13,7 @@ This extension adds computed property `visible` to `XCUIElement`. It is useful i
 Add the following line to the target `UITests` in your `Podfile`:
 
 ``` Ruby
-pod 'XCUIElement+Visible'
+pod 'XCUIElement+IsVisible'
 ```
 
 ### Swift Package Manager
@@ -19,32 +21,26 @@ pod 'XCUIElement+Visible'
 Add the following line to `dependencies` in your `Package.swift` file:
 
 ``` Swift
-.Package(url: "https://github.com/albinekcom/XCUIElement-Visible.git", majorVersion: 0)
+.Package(url: "https://github.com/albinekcom/XCUIElement-IsVisible.git", majorVersion: 0)
 ```
 
 ### Manually
 
-Add `XCUIElement+Visible.swift` file from `Sources` directory into your project.
+Add `XCUIElement+IsVisible.swift` file from `Sources` directory into your project.
 
 
 ## Usage
 
   1. Add `import` statement in your class which inherits from `XCTestCase` (not needed if you install it [manually](#manually)):
   ``` Swift
-  import XCUIElement_Visible
+  import XCUIElement_IsVisible
   ```
 
-  2. Receive desired `XCUIElement` in your test method and use its `visible` property:
+  2. Receive desired `XCUIElement` in your test method and use its `isVisible` computed property:
   ``` Swift
   func testExample() {
       let element = // (...)
 
-      XCTAssertTrue(element.visible)
+      XCTAssertTrue(element.isVisible)
   }
   ```
-
-
-## Minimum requirements
-
-- Swift 3
-- iOS 9.0 / OS X 10.11 (where `UI Testing` is available)

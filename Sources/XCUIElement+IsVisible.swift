@@ -5,7 +5,7 @@ import XCTest
 
 public extension XCUIElement {
 
-    var visible: Bool {
+    var isVisible: Bool {
         return exists && !frame.isEmpty && XCUIApplication().windows.element(boundBy: 0).frame.contains(frame)
     }
 
