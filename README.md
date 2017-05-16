@@ -30,12 +30,10 @@ Add `XCUIElement+IsVisible.swift` file from `Sources` directory into your projec
 
 
 ## Usage
-
 1. Add `import` statement in your class which inherits from `XCTestCase` (not needed if you install it [manually](#manually)):
   ``` Swift
   import XCUIElement_IsVisible
   ```
-
 2. Receive desired `XCUIElement` in your test method and use its `isVisible` computed property:
   ``` Swift
   func testExample() {
