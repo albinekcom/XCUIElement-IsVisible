@@ -2,7 +2,7 @@
 
 [![Swift 3.1](https://img.shields.io/badge/Swift-3.1-orange.svg)](https://swift.org)
 
-This extension adds computed property `isVisible` to `XCUIElement`. It is useful in `UI Testing` for checking if a specified element is visible on the screen.
+This extension adds a computed property `isVisible` to `XCUIElement`. It is useful in `UI Testing` for checking if a specified element is visible on the screen.
 
 
 ## Installation
