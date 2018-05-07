@@ -1,6 +1,6 @@
 # XCUIElement+IsVisible
 
-[![Swift 3.1](https://img.shields.io/badge/Swift-3.1-orange.svg)](https://swift.org)
+[![Swift 4](https://img.shields.io/badge/Swift-4-orange.svg)](https://swift.org)
 
 This extension adds a computed property `isVisible` to `XCUIElement`. It is useful in `UI Testing` for checking if a specified element is visible on the screen.
 
@@ -21,7 +21,7 @@ pod 'XCUIElement+IsVisible'
 Add the following line to `dependencies` in your `Package.swift` file:
 
 ``` Swift
-.Package(url: "https://github.com/albinekcom/XCUIElement-IsVisible.git", majorVersion: 0)
+.package(url: "https://github.com/albinekcom/XCUIElement-IsVisible.git", from: "0.0.1")
 ```
 
 ### Manually
