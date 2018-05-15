@@ -42,4 +42,4 @@ Add `XCUIElement+IsVisible.swift` file from `Sources` directory into your projec
   }
   ```
 
-Check out `Example` project can in `Example` directory.
+Check out `Example` project in `Example` directory.
