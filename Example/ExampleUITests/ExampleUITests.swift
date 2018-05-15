@@ -17,12 +17,12 @@ final class ExampleUITests: XCTestCase {
     
     // MARK: - Tests
     
-    func testIsHittable() {
+    func testIsVisible() {
         let mainLabel = application.staticTexts["Label is visible"]
         
-        XCTAssertTrue(mainLabel.isHittable)
+        XCTAssertTrue(mainLabel.isVisible)
         application.buttons["Move Label Outside Of The Main View"].tap()
-        XCTAssertFalse(mainLabel.isHittable)
+        XCTAssertFalse(mainLabel.isVisible)
     }
     
 }

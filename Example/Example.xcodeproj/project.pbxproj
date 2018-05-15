@@ -13,6 +13,7 @@
 		8C665A4420AB66CC00611CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C665A4320AB66CC00611CA1 /* Assets.xcassets */; };
 		8C665A4720AB66CC00611CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C665A4520AB66CC00611CA1 /* LaunchScreen.storyboard */; };
 		8C665A5220AB66CC00611CA1 /* ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C665A5120AB66CC00611CA1 /* ExampleUITests.swift */; };
+		8C665A5D20AB773F00611CA1 /* XCUIElement+IsVisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C665A5C20AB773F00611CA1 /* XCUIElement+IsVisible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		8C665A4D20AB66CC00611CA1 /* ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C665A5120AB66CC00611CA1 /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
 		8C665A5320AB66CC00611CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C665A5C20AB773F00611CA1 /* XCUIElement+IsVisible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "XCUIElement+IsVisible.swift"; path = "../../Sources/XCUIElement+IsVisible.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		8C665A5020AB66CC00611CA1 /* ExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
+				8C665A5C20AB773F00611CA1 /* XCUIElement+IsVisible.swift */,
 				8C665A5120AB66CC00611CA1 /* ExampleUITests.swift */,
 				8C665A5320AB66CC00611CA1 /* Info.plist */,
 			);
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C665A5D20AB773F00611CA1 /* XCUIElement+IsVisible.swift in Sources */,
 				8C665A5220AB66CC00611CA1 /* ExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
